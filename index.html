@@ -5,22 +5,18 @@
     <title>Project Euler - No. 001</title>
     <link href="css/normalize-necolas.css" rel="stylesheet" type="text/css">
     <link href="css/master.css" rel="stylesheet" type="text/css">
-
   </head>
   <body>
-    <h1>Project Euler No. 1:  Multiples of 3 and 5</h1>
-    <p>If we list all the natural numbers below 10 that are multiples of 3 or 5,
-      we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
-
-    <p>Click on the &apos;Calculate&apos; button to find the sum of all the multiples
-      of 3 or 5 below 1000, as well as a list of all the multiples.</p>
-
-    <button type="button" name="calcMultiples" onclick="calcMultiples()">Calculate</button>
-
+    <div class="question">
+      <h1 class="main-title">Project Euler Problem No. 1: Multiples of 3 and 5</h1>
+      <p>If we list all the natural numbers below 10 that are multiples of 3 or 5,
+        we get 3, 5, 6 and 9. The sum of these multiples is 23.</p>
+      <p>Click on the &apos;Calculate&apos; button to find the sum of all the multiples
+        of 3 or 5 below 1000, as well as a list of said multiples.</p>
+      <button id="calcMultiples" class="question calcButton" type="button" name="calcButton">Calculate</button>
+    </div>
     <!--empty div elements to contain the answers-->
-    <div id="answer"></div>
-    <div id="multiplesList"></div>
-
+    <div id="answerField" class="answer"></div>
     <script src="scripts/main.js"></script>
   </body>
 </html>

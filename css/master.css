@@ -1,0 +1,28 @@
+/*html, body {
+  min-width: 10em;
+}*/
+.question {
+  font-size: 1em;
+  color: rgba(230, 230, 230, 1);
+  background-color: rgba(0, 70, 233, 1);
+  padding: 2em 2em;
+}
+.main-title {
+  font-size: 2em;
+  color: rgba(0, 203, 2, 1)rgba(89, 200, 90, 1);
+}
+.calcButton {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgba(0, 70, 233, 1);
+  background-color: rgba(0, 203, 2, 1);
+  border-radius: 5px;
+  padding: 0.2em;
+  margin: 0.5em 0 1em;
+}
+.answer {
+  font-size: 1em;
+  color: rgba(0, 70, 233, 1);
+  background-color: rgba(89, 200, 90, 1);
+  padding: 0.5em 2em 2em;
+}
